@@ -1,0 +1,23 @@
+.portfolio {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    overflow: hidden;
+  }
+  .height1000 {
+    height: 1000px;
+  }
+  .height2000 {
+    height: 2000px;
+  }
+  .image {
+    margin: 15px;
+    display: flex;
+    width: calc(33% - 30px);
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }

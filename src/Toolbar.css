@@ -1,0 +1,16 @@
+.toolbar .filter {
+    list-style: none;
+    display: flex;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.toolbar .filter-item {
+    border: 1px solid #888;
+    padding: 15px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.toolbar .filter-item:hover, .toolbar .filter-item.selected {
+    background: #888;
+    color: #fff;
+}
