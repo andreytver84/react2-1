@@ -10,7 +10,7 @@ function Portfolio(props) {
 
     let id=1;
     return (
-        <div className={newdata.length < 3 ? "height1000 + portfolio" : "height2000 + portfolio"}>
+        <div className={newdata.length < 6 ? "height700 + portfolio" : "height1500 + portfolio"}>
             {
                 newdata.map(p => 
                     <div key={id++} className="image">
